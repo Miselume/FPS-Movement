@@ -17,10 +17,9 @@ public class Move : MonoBehaviour
     [SerializeField]
     private Collider playerCollider;
     [SerializeField]
-	private Rigidbody rb;
-    [SerializeField]
+    private Rigidbody rb;
 
-	void Awake() => rb = GetComponent<Rigidbody>();
+    void Awake() => rb = GetComponent<Rigidbody>();
 
     private void Start() => heightOfPlayer = transform.localScale.y;
 
