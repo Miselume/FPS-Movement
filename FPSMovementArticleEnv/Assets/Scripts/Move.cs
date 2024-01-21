@@ -4,9 +4,9 @@ using UnityEngine.UIElements;
 
 public class Move : MonoBehaviour
 {
-	private float xAxis, zAxis;
-	private float moveSpeed = 405.5f;
-
+    private float xAxis, zAxis;
+    private float moveSpeed = 405.5f;
+    
     private bool jumpActive;
     private int jumpHeight = 6;
     private RaycastHit hit;
